@@ -1,0 +1,31 @@
+{
+  "generator": "ImageGen / SiliconFlow Qwen-Image",
+  "generatedFor": "时令二十四节气科普网站",
+  "notice": "以下为预生成的网站装饰插画，不作为真实物候照片或实时游戏生成结果。",
+  "assets": [
+    {
+      "file": "landscape.webp",
+      "generator": "ImageGen",
+      "prompt": "Use case: large hero artwork for an elegant Chinese twenty-four solar terms educational website. Scene: an expansive traditional Chinese countryside landscape in late autumn, a meandering pale jade river leading into layered misty teal mountains, a small white-walled dark-roofed village, terraced ochre rice fields, a persimmon tree and a graceful pine in the foreground, tiny birds over water. Style: exquisite contemporary Chinese watercolor and fine ink painting on subtle warm ivory paper, sophisticated muted sage green, forest teal and restrained golden ochre, serene atmospheric perspective, delicate natural textures, editorial art direction, not cartoon, not photorealistic. Composition: panoramic landscape with the main mountain peak in the upper right, generous airy mist in the upper left, beautiful readable detail throughout, artwork extends to all edges. Constraints: absolutely no text, no lettering, no calligraphy, no seals, no logos, no borders, no watermark."
+    },
+    {
+      "files": ["spring.webp", "summer.webp", "autumn.webp", "winter.webp"],
+      "generator": "ImageGen",
+      "processing": "四象限原图按四季裁切，转换为WebP",
+      "prompt": "Use case: an illustrated four-season art sheet to crop into four equal separate website landscape cards. EXACT layout: a 2 by 2 grid of four equally sized independent Chinese watercolor paintings, no gaps or borders, each scene confined entirely to its own quadrant. Top left SPRING: tender willow branches, white pear blossoms, pale green fields, a river, distant soft jade mountains. Top right SUMMER: lush lotus pond with delicate pink lotus flowers and large rich green leaves, a small pavilion, bright gentle sunlight. Bottom left AUTUMN: golden rice terraces, red persimmon branches, small village and amber trees, distant ochre mountains. Bottom right WINTER: snow on pine trees and old village roofs, muted blue grey mountains, pale misty river. Elegant contemporary Chinese ink and watercolor, rich natural texture on warm ivory paper, editorial illustration, serene and cultivated, restrained botanical detail, each scene has strong distinct seasonal colors. Constraints: absolutely no text, no letters, no Chinese characters, no calligraphy, no seals, no watermark, no captions. Four rectangular equal size scenes, perfectly straight central vertical and horizontal divide."
+    },
+    {
+      "files": [
+        "terms/lichun.webp", "terms/yushui.webp", "terms/jingzhe.webp", "terms/chunfen.webp",
+        "terms/qingming.webp", "terms/guyu.webp", "terms/lixia.webp", "terms/xiaoman.webp",
+        "terms/mangzhong.webp", "terms/xiazhi.webp", "terms/xiaoshu.webp", "terms/dashu.webp",
+        "terms/liqiu.webp", "terms/chushu.webp", "terms/bailu.webp", "terms/qiufen.webp",
+        "terms/hanlu.webp", "terms/shuangjiang.webp", "terms/lidong.webp", "terms/xiaoxue.webp",
+        "terms/daxue.webp", "terms/dongzhi.webp", "terms/xiaohan.webp", "terms/dahan.webp"
+      ],
+      "generator": "SiliconFlow Qwen-Image (Qwen/Qwen-Image)",
+      "processing": "逐节气生成1584×1056插画，转换并压缩为WebP",
+      "prompt": "二十四节气系列插画，共24张，每张按该节气的传统物候、时令风物与自然色彩单独描述构图，保留AI生成标识。统一风格：当代新中式水墨与水彩，米白宣纸质感，含蓄雅致的自然色彩，细腻植物笔触，宁静东方意境，横幅构图，无文字、无书法、无印章、无人物。"
+    }
+  ]
+}

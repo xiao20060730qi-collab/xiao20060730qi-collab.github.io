@@ -1,0 +1,24 @@
+{
+  "name": "时令 · 二十四节气",
+  "short_name": "时令",
+  "description": "循四时之序，感万物之生。节气图鉴、精准日历、七十二候与每日一签。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8f8f3",
+  "theme_color": "#315747",
+  "categories": ["education", "lifestyle", "reference"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "每日一签", "short_name": "每日一签", "url": "/daily.html", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "七十二候", "short_name": "七十二候", "url": "/phenology.html", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "节气日历", "short_name": "日历", "url": "/calendar.html", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
